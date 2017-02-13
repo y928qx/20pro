@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE hibernate-reverse-engineering PUBLIC "-//Hibernate/Hibernate Reverse Engineering DTD 3.0//EN" "http://hibernate.sourceforge.net/hibernate-reverse-engineering-3.0.dtd" >
+
+<hibernate-reverse-engineering>
+	<table name="admins" schema="dbo" catalog="fcshopping"
+		class="com.sanqing.po.Admin">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="commodity" schema="dbo" catalog="fcshopping"
+		class="com.sanqing.po.Commodity">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="commodityClass" schema="dbo" catalog="fcshopping"
+		class="com.sanqing.po.CommodityClass">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="orderForm" schema="dbo" catalog="fcshopping"
+		class="com.sanqing.po.OrderForm">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+	<table name="orderList" schema="dbo" catalog="fcshopping"
+		class="com.sanqing.po.OrderList">
+		<primary-key>
+			<generator class="native"></generator>
+		</primary-key>
+	</table>
+<table name="users" schema="dbo" catalog="fcshopping"
+	class="com.sanqing.po.User">
+	<primary-key>
+		<generator class="native"></generator>
+	</primary-key>
+</table>
+</hibernate-reverse-engineering>
