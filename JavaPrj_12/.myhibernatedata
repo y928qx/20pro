@@ -1,0 +1,23 @@
+#
+#Sat Jun 13 16:38:20 CST 2009
+genBasicCompId=false
+sessionFactoryName=com.ibeifeng.po.HibernateSessionFactory
+profile=
+daoSFId=
+version=3.2
+jndiPath=
+detectM2M=false
+reStrategyClass=
+springDaoFile=
+useJavaTypes=true
+keyGenerator=
+libInstallFolder=WebRoot/WEB-INF/lib
+addLibs2Project=true
+genVersionTag=false
+sessionFactoryId=
+basePersistenceClass=
+reSettingsFile=/BFVIPShopping/hibernate.reveng.xml
+configFile=/BFVIPShopping/src/hibernate.cfg.xml
+createConfigFile=true
+addLibs2Classpath=true
+baseDaoClass=BaseHibernateDAO
